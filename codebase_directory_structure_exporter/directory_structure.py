@@ -92,7 +92,7 @@ def save_structure_to_readme(root_dir, output_format):
         output_path = "DIR_STRUCTURE_OUTPUT(TEXT).md"
 
     with open(output_path, "a") as f:
-        f.write("\n## Directory Structure\n\n")
+        f.write("\n## Codebase Directory Structure\n\n")
         f.write(f"```{code_block}\n")
         f.write(output + "\n")
         f.write("```\n")
@@ -121,4 +121,4 @@ if __name__ == "__main__":
     save_to_readme = input(f"Do you want to save the structure to DIR_STRUCTURE_OUTPUT({'JSON' if output_format == 'json' else 'TEXT'}).md? (yes/no): ").strip().lower()
     if save_to_readme == "yes":
         save_structure_to_readme(root_directory, output_format)
-        print(f"Directory structure saved to DIR_STRUCTURE_OUTPUT({'JSON' if output_format == 'json' else 'TEXT'}).md in {output_format} format.")
+        print(f"Codebase directory structure saved to DIR_STRUCTURE_OUTPUT({'JSON' if output_format == 'json' else 'TEXT'}).md in {output_format} format.")

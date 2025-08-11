@@ -1,9 +1,9 @@
-# Directory Structure Generator
+# Codebase Directory Structure Generator
 
-This Python script generates a directory structure in either JSON or text format, allowing you to document your project's file hierarchy in a dedicated Markdown file or display it in the console. It uses the `pathlib` library for cross-platform compatibility and supports recursive directory traversal with error handling for non-existent directories or permission issues.
+This Python script generates a codebase directory structure in either JSON or text format, allowing you to document your project's file hierarchy in a dedicated Markdown file or display it in the console. It uses the `pathlib` library for cross-platform compatibility and supports recursive directory traversal with error handling for non-existent directories or permission issues.
 
 ## Features
-- Generate directory structure in JSON or text format.
+- Generate codebase directory structure in JSON or text format.
 - Prompt user for directory path and output format.
 - Save output to `DIR_STRUCTURE_OUTPUT(JSON).md` (for JSON) or `DIR_STRUCTURE_OUTPUT(TEXT).md` (for text) in a Markdown code block.
 - Handle errors like non-existent directories or permission-denied access.
@@ -70,7 +70,7 @@ Enter output format (json or text): json
   ]
 }
 Do you want to save the structure to DIR_STRUCTURE_OUTPUT(JSON).md? (yes/no): yes
-Directory structure saved to DIR_STRUCTURE_OUTPUT(JSON).md in json format.
+Codebase directory structure saved to DIR_STRUCTURE_OUTPUT(JSON).md in json format.
 ```
 
 ## Example Outputs
